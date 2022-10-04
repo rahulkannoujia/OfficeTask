@@ -1,0 +1,21 @@
+{
+	"login_successfully": "Login successfully",
+	"jwt_invalid_token": "Invalid token",
+	"jwt_expired_token": "Token Expired",
+	"user_signUp": "User Sign up successfully",
+	"teacher_signUp": "Teacher signUp successfully",
+	"question_created": "Question added successfully",
+	"question_deleted": "Question deleted successfully",
+	"quiz_deleted": "Quiz deleted successfully",
+	"Question_list": "Question list fetched Successfully",
+	"Teacher_view_student_list": "Student View list fetched successfully",
+	"student_blocked_status": "Student blocked   successfully",
+	"student_unblocked_status": "Student unblocked   successfully",
+	"admin_changed_password_recently": "Admin changed password recently",
+	"student_signUp": " Student signUp successfully",
+	"quiz_list": "Quiz list fetched successfully",
+	"question_list": "Question list fetched Successfully",
+	"authentication_required": "authentication_required",
+	"student_password_changed": "student_password_changed",
+	"invalid_email_password": "invalid_email_password"
+}

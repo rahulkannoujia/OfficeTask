@@ -1,0 +1,50 @@
+import { Document, ObjectId } from 'mongoose';
+export interface ProductInterface extends Document {
+    _id?: ObjectId;
+    isDeleted: Boolean;
+    name: string;
+    sku: string;
+    price: number;
+    categoryId: ObjectId;
+    categoryName?: string;
+    subcategoryId: ObjectId;
+    subcategoryName: string;
+    sectionId: ObjectId;
+    sectionName: string;
+    author: string;
+    stock: number;
+    description: string;
+    regularPrice: number;
+    salePrice: number;
+    taxClass: string;
+    taxStatus: string;
+    taxClassCode: string;
+    stockQuantity: number;
+    allowBackOrders: boolean;
+    lowStockThreshold: number;
+    soldIndividualStock: number;
+    weight: number;
+    weightUnit: string;
+    dimensions: string;
+    shippingClass: string;
+    upSells: boolean;
+    crossSells: boolean;
+    color: string;
+    material: string;
+    purchasedNote: string;
+    menuOrder: string;
+    isReviewEnabled: boolean;
+    adminCommissionType: string;
+    adminCommission: number;
+    cashbackTypes: CashbackTypes[];
+    coverPhoto?: string;
+    photos?: string[];
+    isActive: Boolean;
+    createdAt: Date;
+    updatedAt: Date;
+}
+interface CashbackTypes {
+    cashbackType: string;
+    amount: number;
+}
+export {};
